@@ -5,11 +5,7 @@ library(lsr)
 
 # Parte 1. Preparacion de datos
 ## Importar los datos conservando el header
-inputdata<-read.csv(paste("C:/Users/Ignacio/Documents/LCG/semestre_4/",
-                          "SEMINARIO DE ESTADISTICA (CIENCIAS DE ",
-                          "DATOS)/Proyecto/Datasets proyecto final/",
-                          "wcgs.csv", 
-                          sep = ""), header = TRUE)
+inputdata<-read.csv("wcgs.csv", header = TRUE)
 ## Revisar los indices correspondientes a los nombres de las 
 ## columnas/caracteristicas
 colnames(inputdata)
